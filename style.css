@@ -1,0 +1,157 @@
+body{
+  margin: 0px;
+  margin-top: 70px;
+}
+
+.header-img{
+  width: 40%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.header-img img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.header-img p{
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  font-size: 34px;
+  position: absolute;
+  left: 22%;
+  bottom: 0px;
+  line-height: 50px;
+}
+
+p, li{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 15px;
+  font-weight: 300;
+  list-style-type: square;
+  margin-top: 5px;
+}
+
+.intro p, li{
+  font-size: 18px;
+}
+
+blockquote{
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  line-height: 70px;
+  font-size: 50px;
+  position: relative;
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  margin-bottom: 80px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 100px;
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  font-size: 140px;
+}
+
+h2{
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+h3{
+  font-family: 'Josefin Sans';
+  font-size: 23px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+h4{
+  font-family: 'Merriweather', italic;
+  font-size: 15px;
+  margin-top: 0px;
+  
+}
+
+.line{
+  background-color: black;
+  height: 5px;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.main-flexbox{
+  display: flex;
+  width: 800px;
+  flex-direction: row;
+  justify-fontent: space-around;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+}
+
+.content-text{
+  width: 55%;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+.quote-container{
+  width: 40%;
+}
+
+.navigation{
+  top:0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  height: 70px;
+  background-color: #444;
+  z-index: 10;
+  border-bottom: solid 2px #222;
+}
+
+.navigation ul{
+  width: 50%;
+  height: 70px;
+  line-height: 70px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navigation li{
+  list-style: none;
+  display: inline-block;
+  color: white !important;
+  font-size: 22px;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: white;
+}
+
+.navigation a:visited{
+  color: white;
+}
